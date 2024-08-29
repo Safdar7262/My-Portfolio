@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#1E1E1E;
+    color:black;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color:#333333;
+height: 67px;
+color: #F5F5F5;
+
+}
+nav ul a{
+    color: wheat;
+    text-decoration: none;
+} 
+a:hover{
+    color: #FF5733;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+   
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.logo{
+    padding-top: 9px;
+
+}
+.left{
+    font-size: 2.2rem;
+    margin-left: -480px;
+    color: #FF5733;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 23px;
+}
+.leftSection{
+    /* background-color: red; */
+    width: 40%;
+    font-size: 2.5rem;
+    margin: 82px;
+    color: #F5F5F5;
+}
+.name{
+   color: wheat;
+   /* font-family: "Pacifico", cursive; */
+   font-weight: 400;
+   font-style: normal;
+   font-size: 3.5rem;
+}
+.name:hover{
+    color: #FF5733;
+
+}
+.developer{
+    font-size: 2rem;
+}
+.Specializing{
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* buttons */
+button{
+justify-content: space-between;
+align-items: center;
+border-radius: 21px;
+display: inline;
+padding: 14px;
+border: 0px;
+background: #FF5733;
+margin: 33px;
+}
+.rightSection{
+    /* background-color: red; */
+    width: 45%;
+    height: min-content;
+    margin-top: 31px;
+}
+.Second{
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    background-color:#1E1E1E;
+    height: 340px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: #1E1E1E;
+}
+.leftSecond{
+    width: 45%;
+    font-size: 2.5rem;
+    margin: 90px;
+    color: #F5F5F5;
+    padding-bottom: 247px;
+}
+.rightSecond{
+    font-family: "Poppins", sans-serif;
+}
+/* my skills */
+#skills{
+    font-family:"Poppins", sans-serif ;
+}
+.Third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1E1E1E;
+    height: 1000px;
+    color: white;
+    /* background-color: ; */
+}
+.lowernav{
+   justify-content: center;
+   color: black;
+}
+.lowernav a{
+    text-decoration: none;
+    
+} 
+section.Third{
+    border: 23px solid #1E1E1E;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: table-footer-group;
+    gap: 10px;
+    
+}
+/* third section projects */
+.firstThird{
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    /* background-color:#1E1E1E; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+   
+}
+.firstThirdLeft{
+ margin: 66px;
+}
+.firstThirdRight{
+   margin-left: 88px;
+}
+
+/* second */
+.secondThird{
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    /* background-color:#1E1E1E; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.secondThirdLeft{
+    margin: 66px;
+}
+.secondThirdRight{
+    margin-left: 88px;
+}
+/* third */
+.thirdThird{
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    /* background-color:#1E1E1E; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.thirdThirdLeft{
+    margin: 66px;
+}
+.thirdThirdRight{
+    margin-left: 88px;
+}
+/* fourth */
+.fourthThird{
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    /* background-color:#1E1E1E; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.fourthThirdLeft{
+    margin: 66px;
+}
+.fourthThirdRight{
+    margin-left: 88px;
+}
